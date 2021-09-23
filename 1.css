@@ -1,0 +1,53 @@
+* {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 3vw;
+}
+
+body {
+    border: 4px solid white;
+    margin: 0;
+    padding: 3%;
+}
+
+.Morse {
+    background-image: url(1-38.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    color: white;
+}
+
+input {
+    color: black;
+}
+
+button {
+    color: orange;
+    border-radius: 30%;
+    box-shadow: 5px 5px 5px 5px white;
+    margin-top: 2%;
+}
+
+button:active {
+    box-shadow: none;
+}
+
+p {
+    border: 2px solid black;
+    background-color: white;
+    margin: 10%;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#message {
+    text-transform: capitalize;
+}
+
+#answer2 {
+    text-transform: capitalize;
+}

@@ -1,0 +1,45 @@
+* {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    color: blanchedalmond;
+    background-image: url("pj.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    width: 100%;
+    height: 200px;
+}
+
+.container {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.project {
+    float: left;
+    width: 29%;
+    height: 200px;
+    padding: 0px;
+    background-color: linear-gradient(45deg, brown, lightskyblue);
+    opacity: 0.8;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20%;
+    border: 5px solid lightgoldenrodyellow;
+    border-radius: 30%;
+    font-size: 30px;
+    margin: 1%;
+}
+
+.project:hover {
+    width: 25%;
+    border-radius: 50%;
+}
